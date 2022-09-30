@@ -1,151 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
 *{
-
     margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    text-decoration: none;
-    box-sizing: border-box;
+    padding: 0;  
 }
-
- body{
-    background: linear-gradient(120deg, #e75590, #00c2cb);
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    text-decoration: none;
-    box-sizing: border-box;
+body{
+    background-color:rgba(64, 123, 223,1);
+    
+}
+header{
+    margin-top: 55px;
+    margin-left: 150px;
+    background-color: whitesmoke;
+    border-radius:25px 0 0 25px;
 }
 .login{
-
-    height: 100vh;
-    background: linear-gradient(120deg, #e75590, #00c2cb);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-weight:100;
 }
-.loginContainer{
-    height: 650px;
-    width: 700px;
-    background-color: #ffffff;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding: 32px;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
+
+.cabecalho h2{
     
-    padding-top: 20px;
-    box-shadow: 15px 15px 15px 15px rgb(0, 132, 255);
-}
-.loginTitle{
-    margin-bottom: 32px;
-    color: #303030;
-}
-.loginTitle2{
-    margin-bottom: 32px;
-    color: #303030;
-}
-.loginForm{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-.loginInput{
-    height: 48px;
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 8px;
-    border: 2px solid grey;
-    border-radius: 15px;
-    outline: none;
-    position: relative;
+    margin-left:150px ;
+    margin-bottom: 30px;
+    
 }
 
-#textEmail{
-    outline: none;
+.cabecalho h5{
+    margin-left:150px ;
+    margin-bottom: 30px;
+    font-weight: 200;
+
 }
-
-#textPassword{
-    outline: none;
+.mainContainer{
+    width: 355px;
+    height: 350px;
+    margin-left: 150px;
+    background-color:whitesmoke ;
 }
+.inputLogin{
+    height: 35px;
+    border-radius: 8px;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
 
+}
+.inputPass{
+    height: 35px;
+    border-radius: 8px;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}    
 
-#btnLogin{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    font-size: 15px;
-    color:darkblue;
+.button #btnLogin{
+    width: 120px;
+    height: 40px;
+    margin-left: 0px;
+    background-color: rgba(64, 123, 223,1);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    margin-right: 30px;
     cursor: pointer;
-    margin-top: 15px;
-    margin-bottom: 15px;
-   
-   
+} 
+
+.button #btnLogin:hover{
+    background-color: aqua;
 }
-
-
-
-#btnSignup{
-    display: flex;
-    flex-direction: row;
+.button #btnSignup{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color:  rgba(64, 123, 223,1);
+    font-size:20px ;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    cursor: pointer;   
+}
+.button #btnSignup:hover{
+    background-color: aqua;
+}
+.mainContainer #linkA{
     text-align: right;
-    align-items: center;
-    font-size: 15px;
-    color:darkblue;
-    cursor: pointer;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
-   
-    
-}
-
-.loginReset{
-    font-size: 12px;
-    color: #929292;
     text-decoration: none;
-    
+    color:  rgba(64, 123, 223,1);
+    font-size: 18px;
+    margin-bottom: 20px;
 }
-.loginLink1{
-    font-size: 16px;
-    color: #929292;
+footer .text{  
+    font-size: 20px;
     text-decoration: none;
-    outline: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 15px 15px;
-}
-.loginLink2{
-    font-size: 16px;
-    color: #929292;
-    text-decoration: none;
-    justify-content: space-around;
-    outline: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.loginLink3{
-    font-size: 16px;
-    color: #929292;
-    text-decoration: none;
-    text-align: center;
-    outline: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    gap: 25px;
+    color:  rgba(64, 123, 223,1);
 }
